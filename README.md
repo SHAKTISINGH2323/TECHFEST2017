@@ -1,3 +1,8 @@
 # HMR ITM TECH FEST 2K17
-WEB SITE FOR TECH FEST
 
+This repo contains all the source code for the TechFest 2017 website for our college HMRITM.
+
+-Developers:
+Shakti Singh, 
+Aayush Kumar,
+Shubham Kushwah.
