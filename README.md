@@ -4,5 +4,5 @@ This repo contains all the source code for the TechFest 2017 website for our col
 
 -Developers:
 Shakti Singh, 
-Aayush Kumar,
+Aayush Kumar, 
 Shubham Kushwah.

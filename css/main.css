@@ -5,7 +5,7 @@ html,body{
 
 .reg_btn {
     color: #2196F3;
-display:block;
+    display:block;
     font-family: Ubuntu ,serif;
     padding: 12px 25px 12px 25px;
     border-radius: 3px;
@@ -46,8 +46,6 @@ display:block;
 {
     height: 100%;
 }
-
-
 .jumbotron {
     text-align: center;
     background-color: #1b1e21;
@@ -126,9 +124,6 @@ display:block;
     transform: translateY(-290px);
     transition: all .6s;
 }
-
-
-
 footer {
     width: 100%;
     text-align: center;

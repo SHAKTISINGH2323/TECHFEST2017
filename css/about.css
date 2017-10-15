@@ -1,0 +1,116 @@
+
+html,body{
+    max-width:100%;
+}
+body {
+    background-color: #1b1e21;
+}
+::-webkit-scrollbar {
+            width: 8px;
+            background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #323232;
+    border-radius: 5px;
+}
+.reg_btn {
+    color: #2196F3;
+    display:block;
+    font-family: Ubuntu ,serif;
+    padding: 12px 25px 12px 25px;
+    border-radius: 3px;
+    border: 2px solid #2196F3;
+    letter-spacing: 0.2em;
+}
+.reg_btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+#inactive_link {
+    border-bottom: 2px solid white;
+}
+.btn {
+    border-radius: 0;
+}
+.navbar-dark .navbar-brand img{
+    /*color:#B45283;*/
+    width:42px;
+    height:38px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.jumbotron {
+    background-color: #1b1e21;
+    color: white;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    border-radius: 0;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #263238;
+    padding: 20px;
+}
+
+footer p {
+    color: #f1f1f1;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:500px)
+{
+    .display-3{
+        font-size:30px;
+    }
+
+
+}
+@media screen and (max-width:300px)
+{
+    .countdown{
+
+        font-size:20px;
+    }
+    .countdown_text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:776px)
+{
+    .reg_btn{
+        display:none;
+    }
+}
+
+#dev_group > h3 {
+    font: 1.6em sans-serif;
+    color: #f1f1f1;
+}
+
+.dev_group {
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.hire {
+    background-color: white;
+    width: 200px;
+}
+
+.dev_names {
+    cursor: pointer;
+    color: white;
+}

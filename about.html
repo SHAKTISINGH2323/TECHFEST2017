@@ -1,61 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>tech fest 2017</title>
+    <title>Tech Fest | HMRITM</title>
     <link  rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-    <style>
-
-        ::-webkit-scrollbar {
-            width: 8px;
-            background-color: #ffffff;
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/about.css">
+    <style type="text/css">
+        .img-card {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
         }
-        ::-webkit-scrollbar-thumb {
-            background-color: #323232;
-            border-radius: 5px;
-        }
-
-        .navbar-dark .navbar-brand img{
-            width:42px;
-            height:38px;
-        }
-        .jumbotron{
-            background-color: #546E7A;  
-        }
-        #inactive_link {
-            border-bottom: 2px solid white;
-        }
-        footer {
-            width: 100%;
-            text-align: center;
-            background-color: #263238;
-            padding: 15px;
-            margin: 0;
-        }
-
-        footer p {
-            color: #f1f1f1;
-            font-size: 0.9em;
-            margin: 0;
-            padding: 0;
-        }
-        .row-8 {
-            padding: 20px;
-            background-color: #323232;
-            color: white;
-            margin: 10px;
-            border-radius: 5px;
-            text-align: center;
-        }
-        
-
-
     </style>
+
 </head>
 <body>
+
+<!--navigation bar-->
+
 <nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark ">
     <a class="navbar-brand" href="index.html"><img src="Images/Logo/logo_42x42.png"></a>
 
@@ -67,8 +42,10 @@
 
     <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+            
             <li class="nav-item active">
-                <a class="nav-link" id="inactive_link">About</a>
+                <a class="nav-link" href="about.html"  id="inactive_link">About</a>
+
             </li>
 
             <li class="nav-item active">
@@ -77,12 +54,13 @@
             <li class="nav-item active">
                 <a class="nav-link" href="events.html">Events</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Register</a>
+           <li class="nav-item active">
+                <a class="nav-link" href="pdf/brochure.pdf">Register</a>
             </li>
 
         </ul>
         <a class="navbar-brand" href="http://hmritm.ac.in/"><img src="Images/Logo/HMRITM_logo.png"></a>
+        
 
     </div>
 
@@ -90,38 +68,77 @@
 </nav>
 
 
-<div class="jumbotron jumbotron-fluid ">
-    <h1 class="display-3 text-center  ">About</h1>
+<!--slide part-->
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+        <img class="img-fluid" src="Images/Logo/logo.png"/>
+        <img style="margin-top: 30px; height: 180px;" src="Images/Logo/HMRITM_logo.png">
+    </div>
+    <div class="col-md-6">
+    <h1 class="display-3">TECH FEST 2017 HMRITM</h1><br>
+
+    <p class="lead " style="opacity:0.7">TechFest is the annual technical festival of the HMR Institute of Technology and Management. It is a 3 days festival, a time when student get the opportunity to showcase their technical skills and compete with each other various fun events.
+ </p>
+ <p class="lead " style="opacity:0.7">In its endeavour to provide a platform for the youth to showcase their talents and skills in fierce competitions, displaying cutting edge technology and research, having renowned personalities motivate the youth and promoting solutions to alleviate the common man of his banal yet significant problems, Techfest strives for one and all to get inspired and look up to.</p>
+ <div class="dev_group container text-center">
+    <h3>Downloads</h3>
+    <hr class="hire">
+    <div class="row">
+        
+        <div class="col-md-4">
+            <a href="pdf/poster_for_college.pdf" class="dev_names"><button type="button" class="btn btn-outline-primary">Poster-College</button></a>
+        </div>
+        <div class="col-md-4">
+            <a href="pdf/poster_for_school.pdf" class="dev_names"><button type="button" class="btn btn-outline-success">Poster-School</button></a>
+        </div>
+        <div class="col-md-4">
+            <a href="pdf/brochure.pdf" class="dev_names"><button type="button" class="btn btn-outline-info">Brochure</button></a>
+        </div>
+        
+    </div>
+</div>
+ 
+</div>
+</div>
+</div>
 </div>
 
+<div class="dev_group container text-center bg-dark">
+    <h3 style="color: #f1f1f1;">Developers</h3>
+    <hr class="hire">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-2">
+            <p class="dev_names">Shakti Singh</p>
+        </div>
+        <div class="col-md-2">
+            <p class="dev_names">Shubham Kushwah</p>
+        </div>
+        <div class="col-md-2">
+            <p class="dev_names">Aayush Kumar</p>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
 
-    <div class="container">
-
-        <div class="col-md-">
-            <div class="row-4" style="text-align: center;">
-                
-               <img  class="img-fluid" id="tf_logo" src="Images/Logo/logo.png" />
-            </div>
-            <div class="row-8">
-                
-            <p>
-            TechFest is the annual technical festival of the HMR Institute of Technology and Management. It is a 3 days festival, a time when student get the opportunity to showcase their technical skills and compete with each other various fun events.
-
-            In its endeavour to provide a platform for the youth to showcase their talents and skills in fierce competitions, displaying cutting edge technology and research, having renowned personalities motivate the youth and promoting solutions to alleviate the common man of his banal yet significant problems, Techfest strives for one and all to get inspired and look up to. </p>
-
-            </div>
-        </div></div>
-
-
-    <footer>
+<footer>
     <p>&copy TECH FEST 2017 - HMRITM</p>
-    <br>
-    <p>Developers: Shakti Singh | Shubham Kushwah | Aayush Kumar</p>
-    </footer>
+</footer>
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.js"></script>
+<script src="js/countdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
