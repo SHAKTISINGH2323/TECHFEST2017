@@ -8,6 +8,7 @@ html,body{
     display:block;
     font-family: Ubuntu ,serif;
     padding: 12px 25px 12px 25px;
+    margin-top: 20px;
     border-radius: 3px;
     border: 2px solid #2196F3;
     letter-spacing: 0.2em;
