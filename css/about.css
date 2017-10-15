@@ -4,6 +4,7 @@ html,body{
 }
 body {
     background-color: #1b1e21;
+    color: #fff;
 }
 ::-webkit-scrollbar {
             width: 8px;
@@ -13,27 +14,11 @@ body {
     background-color: #323232;
     border-radius: 5px;
 }
-.reg_btn {
-    color: #2196F3;
-    display:block;
-    font-family: Ubuntu ,serif;
-    padding: 12px 25px 12px 25px;
-    border-radius: 3px;
-    border: 2px solid #2196F3;
-    letter-spacing: 0.2em;
-}
-.reg_btn:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #2196F3;
-}
 
 #inactive_link {
     border-bottom: 2px solid white;
 }
-.btn {
-    border-radius: 0;
-}
+
 .navbar-dark .navbar-brand img{
     /*color:#B45283;*/
     width:42px;
@@ -45,15 +30,61 @@ body {
     border-radius: 0;
 }
 
-.jumbotron {
-    background-color: #1b1e21;
-    color: white;
+div.main_container {
+    padding: 2rem;
+}
+
+img.icons {
+    display: block;
+    margin: auto;
+}
+
+[class*="row-"] {
+    border: 1.2px solid #ffffff;
+    border-radius: 0.9rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+div.row-1:hover, div.row-2:hover {
+    background-color: #0a1e21;
+}
+
+div.flexy_icon_container {
     display: flex;
-    flex-direction: column;
-     align-items: center;
-    border-radius: 0;
-    height:100vh;
-    background-attachment: fixed;
+    align-content: center;
+}
+
+div.col-md-4 {
+    display: inline-block;
+    padding: 1rem;
+}
+
+div.col-md-12 {
+    padding: 0;
+    margin: 0;
+}
+
+img.dev_icons {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+p.dev_names {
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+}
+
+h3.block_h3_header {
+    display: block;
+    padding: 1rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+article {
+    font: 1.3em Quicksand;
+    line-height: 2rem;
 }
 
 footer {
@@ -75,9 +106,17 @@ footer p {
         font-size:30px;
     }
 
+    img.dev_icons {
+        width: 70%;
+        height: auto;
+    }
+
+    p.dev_names {
+        font-size: 1.3rem;
+    }
 
 }
-@media screen and (max-width:300px)
+@media screen and (max-width:400px)
 {
     .countdown{
 
@@ -86,31 +125,34 @@ footer p {
     .countdown_text{
         font-size: 10px;
     }
+
+    p.dev_names {
+        font-size: 1rem;
+    }
+
 }
 
-@media screen and (max-width:776px)
+@media screen and (max-width:768px) and (min-width: 500px)
 {
     .reg_btn{
         display:none;
     }
-}
 
-#dev_group > h3 {
-    font: 1.6em sans-serif;
-    color: #f1f1f1;
-}
+    .home_btn {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
 
-.dev_group {
-    padding: 30px;
-    border-radius: 10px 10px 0 0;
-}
+    img.dev_icons {
+        display: inline-block;
+        float: left;
+    }
 
-.hire {
-    background-color: white;
-    width: 200px;
-}
+    p.dev_names {
+        display: inline-block;
+        padding: 1rem;
+        line-height: 150px;
+    }
 
-.dev_names {
-    cursor: pointer;
-    color: white;
 }
