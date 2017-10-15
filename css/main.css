@@ -1,0 +1,161 @@
+
+html,body{
+    width:100%;
+}
+
+.reg_btn {
+    color: #2196F3;
+    display:block;
+    font-family: Ubuntu ,serif;
+    padding: 12px 25px 12px 25px;
+    border-radius: 3px;
+    border: 2px solid #2196F3;
+    letter-spacing: 0.2em;
+}
+.reg_btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+#inactive_link {
+    border-bottom: 2px solid white;
+}
+.btn {
+    border-radius: 0;
+}
+.navbar-dark .navbar-brand img{
+    /*color:#B45283;*/
+    width:42px;
+    height:38px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+}
+.carousel-inner{
+    height:80vh;
+}
+.carousel-item
+{
+    height: 100%;
+}
+.j{
+    text-align: center;
+    background-color: #1b1e21;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+
+}
+
+
+
+.countdown {
+    color: #FDD835;
+    background-color: #263238;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 100;
+    padding-top: 10px;
+    text-align: center;
+}
+.countdown_text {
+    color: #E1A924;
+    background-color: #263238;
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: 100;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    object-fit: cover;
+    overflow: hidden;
+    height: 305px;
+    cursor: pointer;
+}
+
+.img-card {
+    object-fit: cover;
+    overflow: hidden;
+    height: 250px;
+}
+
+.card-head h5 {
+    font-size: 10px;
+    padding: 0;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.body-card {
+    color: white;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    background-color: black;
+    opacity: .8;
+    transform: translateY(20);
+}
+
+.card:hover img {
+    transform: scale(1.2);
+    filter: brightness(.6);
+    transition: all .6s ease-in;
+}
+
+.card:hover p {
+    transform: translateY(-290px);
+    transition: all .6s;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #263238;
+    padding: 15px;
+}
+
+footer p {
+    color: #f1f1f1;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width:400px)
+{
+    .countdown{
+
+        font-size:20px;
+    }
+    .countdown_text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:776px)
+{
+    .reg_btn{
+        display:none;
+    }
+
+}
