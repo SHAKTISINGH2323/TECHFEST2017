@@ -1,15 +1,18 @@
 
-html,body{
-    max-width:100%;
+html, body {
+    max-width: 100%;
 }
+
 body {
     background-color: #1b1e21;
     color: #fff;
 }
+
 ::-webkit-scrollbar {
-            width: 8px;
-            background-color: #ffffff;
+    width: 8px;
+    background-color: #ffffff;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #323232;
     border-radius: 5px;
@@ -19,10 +22,10 @@ body {
     border-bottom: 2px solid white;
 }
 
-.navbar-dark .navbar-brand img{
+.navbar-dark .navbar-brand img {
     /*color:#B45283;*/
-    width:42px;
-    height:38px;
+    width: 42px;
+    height: 38px;
 }
 
 .navbar {
@@ -45,8 +48,15 @@ img.icons {
     padding: 2rem;
     margin-top: 2rem;
 }
-div.row-1:hover, div.row-2:hover {
+
+div.row-1:hover, div.row-2:hover, div.row-3:hover, div.row-4:hover {
     background-color: #0a1e21;
+}
+
+a.downloads {
+    display: block;
+    text-align: center;
+    padding: 1.1rem;
 }
 
 div.flexy_icon_container {
@@ -100,10 +110,10 @@ footer p {
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width:500px)
-{
-    .display-3{
-        font-size:30px;
+
+@media screen and (max-width: 500px) {
+    .display-3 {
+        font-size: 30px;
     }
 
     img.dev_icons {
@@ -116,13 +126,14 @@ footer p {
     }
 
 }
-@media screen and (max-width:400px)
-{
-    .countdown{
 
-        font-size:20px;
+@media screen and (max-width: 400px) {
+    .countdown {
+
+        font-size: 20px;
     }
-    .countdown_text{
+
+    .countdown_text {
         font-size: 10px;
     }
 
@@ -132,10 +143,22 @@ footer p {
 
 }
 
-@media screen and (max-width:768px) and (min-width: 500px)
-{
-    .reg_btn{
-        display:none;
+@media screen and (max-width: 991px) {
+
+    #inactive_link {
+        border: none;
+        color: #999999;
+    }
+
+    a.downloads {
+        padding: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .reg_btn {
+        display: none;
     }
 
     .home_btn {
