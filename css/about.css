@@ -4,8 +4,15 @@ html, body {
 }
 
 body {
-    background-color: #1b1e21;
+    background-color: #152127;
     color: #fff;
+}
+
+.jumbotron {
+    background-color: #152127;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 ::-webkit-scrollbar {
@@ -31,10 +38,12 @@ body {
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    background-color: #263238;
 }
 
 div.main_container {
     padding: 2rem;
+    padding-bottom: 0;
 }
 
 img.icons {
@@ -49,8 +58,19 @@ img.icons {
     margin-top: 2rem;
 }
 
-div.row-1:hover, div.row-2:hover, div.row-3:hover, div.row-4:hover {
-    background-color: #0a1e21;
+div.row-1:hover, div.row-2:hover, div.row-3:hover {
+    background-color: #263238;
+}
+
+div.row-4 {
+    border-top: 1.2px solid #ffffff;
+    border-left: 1.2px solid #ffffff;
+    border-right: 1.2px solid #ffffff;
+    border-radius: 0.9rem 0.9rem 0 0;
+    border-bottom: none;
+    background-color: #263238;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 a.downloads {
@@ -78,10 +98,12 @@ img.dev_icons {
     display: block;
     margin: auto;
     padding: 1rem;
+    width: 40%;
+    height: auto;
 }
 
 p.dev_names {
-    font-size: 1.3rem;
+    font-size: 1rem;
     display: block;
     text-align: center;
 }
@@ -102,6 +124,7 @@ footer {
     text-align: center;
     background-color: #263238;
     padding: 20px;
+    border-top: 1px solid #ffffff;
 }
 
 footer p {

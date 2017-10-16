@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tech Fest | HMRITM</title>
-    <link  rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="css/main.css">
-    
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -23,14 +22,16 @@
 <!--
 
 = = = = = Colors Used = = = = =
-dark_grey = #323232;
-grey =
+
+navbar/footer/dev_row/row-hover = #263238;
+
+background = #152127;
 
 -->
 
 <!--navigation bar-->
 
-<nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark ">
+<nav class="navbar  sticky-top navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#"><img src="Images/Logo/logo_42x42.png"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -41,7 +42,7 @@ grey =
 
     <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            
+
             <li class="nav-item active">
                 <a class="nav-link" href="about.html">About</a>
 
@@ -53,13 +54,13 @@ grey =
             <li class="nav-item active">
                 <a class="nav-link" href="events.html">Events</a>
             </li>
-           <li class="nav-item active">
+            <li class="nav-item active">
                 <a class="nav-link" href="pdf/brochure.pdf">Brochure</a>
             </li>
 
         </ul>
-        <a class="navbar-brand" href="http://hmritm.ac.in/"><img src="Images/Logo/HMRITM_logo.png"></a>
-        
+        <a class="navbar-brand hmr_icon" href="http://hmritm.ac.in/"><img src="Images/Logo/HMRITM_logo.png"></a>
+
 
     </div>
 
@@ -81,26 +82,31 @@ grey =
 
     </ol>
     <div class="carousel-inner">
-      <div class=" carousel-item active"  style=" background-color: #1b1e21;">
+        <div class="carousel-item active" style=" background-color: #1b1e21;">
 
-<div id="slide1" class="h-75">
-                <img class="img-fluid logo_main" src="Images/Logo/logo.svg" />
-              <h1  class="text-light text-center head1" style="font-weight: 100; word-spacing: 4px;font-size: 2.5em; letter-spacing:3.1px;" >TECH FEST 2017</h1>
-                <p class="lead  text-center text-light" style="opacity:0.7; font-size:1.5em;" >HMRITM is organising a Tech Fest 2017</p>
-    <a class="reg_btn" href="pdf/brochure.pdf">Brochure</a>
-</div>
+            <div id="slide1" class="h-75">
+                <img class="img-fluid logo_main" src="Images/Logo/logo.svg"/>
+                <h1 class="text-light text-center head1"
+                    style="font-weight: 100; word-spacing: 4px;font-size: 2.5em; letter-spacing:3.1px;">TECH FEST
+                    2K17</h1>
+                <p class="lead  text-center text-light" style="opacity:0.7; font-size:1.5em;">HMRITM is organising a
+                    Tech Fest</p>
+                <p class="lead text-center text-light" style="font-size:1.2em;">7<sup>th</sup> - 8<sup>th</sup>
+                    November, 2017</p>
+                <a class="reg_btn" href="pdf/brochure.pdf">Brochure</a>
+            </div>
 
-      </div>
-        <div class="carousel-item  ">
+        </div>
+        <div class="carousel-item">
             <img class="img-fluid w-100 h-100" style="object-fit:cover;" src="Images/robotics_slider.svg"
                  alt="First slide">
-            <div class="carousel-caption d-none d-md-block text-dark">
+            <div class="carousel-caption d-none d-md-block text-light">
                 <h1 class="display-3">Robotics</h1>
                 <p>Robo events</p>
             </div>
         </div>
         <div class="carousel-item ">
-            <img class="img-fluid w-100 h-100"  style="object-fit:cover;" src="Images/gaming_slider.svg"
+            <img class="img-fluid w-100 h-100" style="object-fit:cover;" src="Images/gaming_slider.svg"
                  alt="Second slide">
             <div class="carousel-caption d-none d-md-block text-dark">
                 <h1 class="display-3">Gaming</h1>
@@ -108,7 +114,7 @@ grey =
             </div>
         </div>
         <div class="carousel-item ">
-            <img class=" img-fluid w-100 h-100" style="object-fit:cover;"  src="Images/projects_slider.svg"
+            <img class=" img-fluid w-100 h-100" style="object-fit:cover;" src="Images/projects_slider.svg"
                  alt="Third slide">
             <div class="carousel-caption d-none d-md-block text-dark">
                 <h1 class="display-3">Projects</h1>
@@ -117,7 +123,7 @@ grey =
 
         </div>
         <div class="carousel-item ">
-            <img class="img-fluid w-100 h-100"  style="object-fit:cover;"  src="Images/poster_slider.svg"
+            <img class="img-fluid w-100 h-100" style="object-fit:cover;" src="Images/poster_slider.svg"
                  alt="Fourth slide">
             <div class="carousel-caption d-none d-md-block text-dark">
                 <h1 class="display-4">E POSTER MAKING</h1>
@@ -126,7 +132,7 @@ grey =
 
         </div>
         <div class="carousel-item ">
-            <img class="img-fluid w-100 h-100"  style="object-fit:cover;"  src="Images/coding_slider.svg"
+            <img class="img-fluid w-100 h-100" style="object-fit:cover;" src="Images/coding_slider.svg"
                  alt="Fifth slide">
             <div class="carousel-caption d-none d-md-block text-dark">
                 <h1 class="display-4">CODING COMPETITION</h1>
@@ -135,8 +141,8 @@ grey =
 
         </div>
         <div class="carousel-item ">
-            <img class="img-fluid w-100 h-100"  style="object-fit:cover;"  src="Images/tech_paper_slider.svg"
-                 alt="Sixth slide" >
+            <img class="img-fluid w-100 h-100" style="object-fit:cover;" src="Images/tech_paper_slider.svg"
+                 alt="Sixth slide">
             <div class="carousel-caption d-none d-md-block text-dark">
                 <h1 class="display-4">TECH PAPER PRESENTATION</h1>
                 <p>Write Your Great Ideas</p>
@@ -171,60 +177,92 @@ grey =
 
     <h1 style="font-weight: 300;">EVENTS</h1>
     <hr>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="img-card">
             <img class="card-img-top" src="Images/robotics_slider.svg"
                  alt="Card image cap"></div>
         <div class="card-body">
-            <h6 class="card-head">ROBOTICS</h6>
-            <p class="body-card">Create awesome projects on robots such as Line following robots, cleaning robots, battle robots, quad-copters etc.</p>
+            <h6 class="card-head">BOT STRIKE</h6>
+            <p class="body-card">
+                Create battle bots, line-following robots, etc. The opportunities are endless, so why wait come join us.
+                <br>
+                <br>
+                <span class="date_card">Date: 7th November, 2017</span>
+            </p>
         </div>
 
 
     </div>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="img-card">
             <img class="card-img-top" src="Images/gaming_slider.svg"
                  alt="Card image cap"></div>
         <div class="card-body">
-            <h6 class="card-head">GAMING</h6>
-            <p class="body-card">Gamers! This is the opportunity to steal the thunder under your name just by taking participate in the thrilling gaming rounds.</p>
+            <h6 class="card-head">LANISTERS</h6>
+            <p class="body-card">
+                Gamers! This is the opportunity to steal the thunder under your name, by taking participate in the
+                thrilling gaming rounds.
+                <br>
+                <br>
+                <span class="date_card">Date: 7th-8th November, 2017</span>
+            </p>
         </div>
     </div>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="img-card">
             <img class="card-img-top" src="Images/projects_slider.svg"
                  alt="Card image cap"></div>
         <div class="card-body">
-            <h6 class="card-head">PROJECTS</h6>
-            <p class="body-card">Think, Implement, Innovate - This is the best place to get yourself a fast paced project creating competition, the best project with the best idea wins it all.</p>
+            <h6 class="card-head">PROJECT EXHIBITION</h6>
+            <p class="body-card">
+                Think, Implement, Innovate - This is the best place to get yourself a fast paced project creating
+                competition, the best project with the best idea wins it all.
+                <br>
+                <br>
+                <span class="date_card">Date: 7th-8th November, 2017</span>
+            </p>
         </div>
     </div>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="img-card">
             <img class="card-img-top" src="Images/coding_slider.svg"
                  alt="Card image cap"></div>
         <div class="card-body">
-            <h6 class="card-head">CODING COMPETITION</h6>
-            <p class="body-card">We welcome you programmers to take part in the programming contests going to be held in the college.</p>
+            <h6 class="card-head">CODING STORM</h6>
+            <p class="body-card">
+                We welcome you programmers to take part in the programming contests going to be held in the college.
+                <br>
+                <br>
+                <span class="date_card">Date: 8th November, 2017</span>
+            </p>
         </div>
     </div>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="img-card">
             <img class="card-img-top" src="Images/poster_slider.svg"
                  alt="Card image cap"></div>
         <div class="card-body">
-            <h6 class="card-head">E POSTER MAKING</h6>
-            <p class="body-card">Show off your skills, and creativity - Welcome to the greatest poster making competition on the globe :D</p>
+            <h6 class="card-head">E POSTER</h6>
+            <p class="body-card">
+                Show off your skills, and creativity - Use any softwares you are good with - Just make it happen!
+                <br>
+                <br>
+                <span class="date_card">Date: 8th November, 2017</span>
+            </p>
         </div>
     </div>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="img-card">
             <img class="card-img-top" src="Images/tech_paper_slider.svg"
                  alt="Card image cap"></div>
         <div class="card-body">
-            <h6 class="card-head">TECH PAPER PRESENTATION</h6>
-            <p class="body-card">Yeah you need to write some technical papers but that's the best part tho!</p>
+            <h6 class="card-head">TECH-PAPER PRESENTATION</h6>
+            <p class="body-card">
+                Welcome researchers, we invite you to come and make use of your knowledge.
+                <br>
+                <br>
+                <span class="date_card">Date: 8th November, 2017</span>
+            </p>
         </div>
     </div>
 

@@ -1,30 +1,29 @@
 
-html,body{
-    width:100%;
+html, body {
+    width: 100%;
 }
 
 ::-webkit-scrollbar {
     width: 8px;
     background-color: #ffffff;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #323232;
     border-radius: 5px;
 }
 
-#slide1{
-
-    display:flex;
-    flex-direction:column;
+#slide1 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
 .reg_btn {
     color: #2196F3;
-    display:block;
+    display: block;
     font-family: 'Ubuntu', serif;
     padding: 12px 25px 12px 25px;
     margin-top: 20px;
@@ -32,6 +31,7 @@ html,body{
     border: 2px solid #2196F3;
     letter-spacing: 0.2em;
 }
+
 .reg_btn:hover {
     text-decoration: none;
     color: #ffffff;
@@ -45,29 +45,41 @@ html,body{
 .btn {
     border-radius: 0;
 }
-.navbar-dark .navbar-brand img{
-    /*color:#B45283;*/
-    width:42px;
-    height:38px;
+
+.navbar-dark .navbar-brand img {
+    width: 42px;
+    height: 38px;
 }
 
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    background-color: #263238;
 }
 
 .card {
     display: inline-block;
     margin: 10px;
+    width: 20rem;
+    max-width: 100%;
 }
-.carousel-inner{
-    height:80vh;
+
+.carousel-inner {
+    height: 80vh;
 }
-.carousel-item
-{
+
+span.date_card {
+    border: 1px solid #ffffff;
+    background-color: #152127;
+    opacity: 0.7;
+    padding: 5px 8px;
+}
+
+.carousel-item {
     height: 100%;
 }
-.j{
+
+.j {
     text-align: center;
     background-color: #1b1e21;
     color: white;
@@ -79,8 +91,6 @@ html,body{
 
 }
 
-
-
 .countdown {
     color: #FDD835;
     background-color: #263238;
@@ -90,6 +100,7 @@ html,body{
     padding-top: 10px;
     text-align: center;
 }
+
 .countdown_text {
     color: #E1A924;
     background-color: #263238;
@@ -147,6 +158,7 @@ html,body{
     transform: translateY(-290px);
     transition: all .6s;
 }
+
 footer {
     width: 100%;
     text-align: center;
@@ -161,22 +173,27 @@ footer p {
     padding: 0;
 }
 
-
-@media screen and (max-width:400px)
-{
-    .countdown{
-
-        font-size:20px;
+@media screen and (max-width: 400px) {
+    .countdown {
+        font-size: 24px;
     }
-    .countdown_text{
+
+    .countdown_text {
         font-size: 10px;
     }
 }
 
-@media screen and (max-width:776px)
-{
-    .reg_btn{
-        display:none;
+@media screen and (max-width: 776px) {
+    .reg_btn {
+        display: none;
     }
+
+    a.hmr_icon {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
 
 }
