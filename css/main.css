@@ -158,8 +158,12 @@ span.date_card {
     transition: all .6s ease-in;
 }
 
+.card p{
+    padding: 10px;
+}
+
 .card:hover p {
-    transform: translateY(-290px);
+    transform: translateY(-240px);
     transition: all .6s;
 }
 
